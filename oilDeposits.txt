@@ -1,0 +1,6 @@
+NAME,LAT,LON
+
+Mata Oil Field, 9.2127, -64.1019
+Barúa Oil Field, 9.8108, -70.9369
+Adas Oil and Gas Field, 8.9193, -63.3366
+El Furrial Oil Field, 9.414, -63.021

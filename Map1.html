@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e79a97d3be50576271e667aaffa33a2c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e79a97d3be50576271e667aaffa33a2c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e79a97d3be50576271e667aaffa33a2c = L.map(
+                "map_e79a97d3be50576271e667aaffa33a2c",
+                {
+                    center: [6.4238, -66.589],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f3aedbf58446cffcb0a7a487c6669fdc = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f3aedbf58446cffcb0a7a487c6669fdc.addTo(map_e79a97d3be50576271e667aaffa33a2c);
+        
+    
+            var circle_marker_6fd3433f6b2a47678ce6485527f309d6 = L.circleMarker(
+                [9.2127, -64.1019],
+                {"bubblingMouseEvents": true, "color": "lightgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e79a97d3be50576271e667aaffa33a2c);
+        
+    
+        var popup_d5f1b6753b301bb3009a41db36093533 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f0e4c1e91071eb3b4065ef2ef3539250 = $(`<div id="html_f0e4c1e91071eb3b4065ef2ef3539250" style="width: 100.0%; height: 100.0%;">Mata Oil Field</div>`)[0];
+                popup_d5f1b6753b301bb3009a41db36093533.setContent(html_f0e4c1e91071eb3b4065ef2ef3539250);
+            
+        
+
+        circle_marker_6fd3433f6b2a47678ce6485527f309d6.bindPopup(popup_d5f1b6753b301bb3009a41db36093533)
+        ;
+
+        
+    
+    
+            circle_marker_6fd3433f6b2a47678ce6485527f309d6.bindTooltip(
+                `<div>
+                     Mata Oil Field
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1d95985edff23201ff31ecd4c469a2a3 = L.circleMarker(
+                [9.8108, -70.9369],
+                {"bubblingMouseEvents": true, "color": "lightgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e79a97d3be50576271e667aaffa33a2c);
+        
+    
+        var popup_d40728d1a57dee2c3b9cd0dcbb6e930b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4207289de59df3bef687bd6d58b6a6c1 = $(`<div id="html_4207289de59df3bef687bd6d58b6a6c1" style="width: 100.0%; height: 100.0%;">Barúa Oil Field</div>`)[0];
+                popup_d40728d1a57dee2c3b9cd0dcbb6e930b.setContent(html_4207289de59df3bef687bd6d58b6a6c1);
+            
+        
+
+        circle_marker_1d95985edff23201ff31ecd4c469a2a3.bindPopup(popup_d40728d1a57dee2c3b9cd0dcbb6e930b)
+        ;
+
+        
+    
+    
+            circle_marker_1d95985edff23201ff31ecd4c469a2a3.bindTooltip(
+                `<div>
+                     Barúa Oil Field
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5c64b88f868a4508e54e2e343591fb9f = L.circleMarker(
+                [8.9193, -63.3366],
+                {"bubblingMouseEvents": true, "color": "lightgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e79a97d3be50576271e667aaffa33a2c);
+        
+    
+        var popup_1afc2246dd2fbcee10a9b4eb55ff1b34 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3e6a04b361f6bd31d17ddf0d6bcead4d = $(`<div id="html_3e6a04b361f6bd31d17ddf0d6bcead4d" style="width: 100.0%; height: 100.0%;">Adas Oil and Gas Field</div>`)[0];
+                popup_1afc2246dd2fbcee10a9b4eb55ff1b34.setContent(html_3e6a04b361f6bd31d17ddf0d6bcead4d);
+            
+        
+
+        circle_marker_5c64b88f868a4508e54e2e343591fb9f.bindPopup(popup_1afc2246dd2fbcee10a9b4eb55ff1b34)
+        ;
+
+        
+    
+    
+            circle_marker_5c64b88f868a4508e54e2e343591fb9f.bindTooltip(
+                `<div>
+                     Adas Oil and Gas Field
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5df17476095f2ed840472a3a6fdf6981 = L.circleMarker(
+                [9.414, -63.021],
+                {"bubblingMouseEvents": true, "color": "lightgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e79a97d3be50576271e667aaffa33a2c);
+        
+    
+        var popup_fcea6741cce67847be0ddea090e66101 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_26e4a7175a5b5643a53faa76c51b9cd9 = $(`<div id="html_26e4a7175a5b5643a53faa76c51b9cd9" style="width: 100.0%; height: 100.0%;">El Furrial Oil Field</div>`)[0];
+                popup_fcea6741cce67847be0ddea090e66101.setContent(html_26e4a7175a5b5643a53faa76c51b9cd9);
+            
+        
+
+        circle_marker_5df17476095f2ed840472a3a6fdf6981.bindPopup(popup_fcea6741cce67847be0ddea090e66101)
+        ;
+
+        
+    
+    
+            circle_marker_5df17476095f2ed840472a3a6fdf6981.bindTooltip(
+                `<div>
+                     El Furrial Oil Field
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var feature_group_f3fc137195f6c048d10f4da9e1961e78 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            feature_group_f3fc137195f6c048d10f4da9e1961e78.addTo(map_e79a97d3be50576271e667aaffa33a2c);
+        
+</script>
+</html>
